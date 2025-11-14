@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Data & artifacts
+data/
+mlruns/
+mlflow.db
+*.pt
+*.pth
+*.onnx
+
+# Docker
+docker-compose.override.yml
+
+# IDE
+.vscode/
